@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Auth from './pages/Auth'
@@ -9,7 +10,7 @@ import Notes from './pages/Notes'
 import Pricing from './pages/Pricing'
 import PaymentSuccess from './pages/PaymentSuccess'
 import PaymentFailed from './pages/PaymentFailed'
-const serverUrl = "https://examnotesai-j0sq.onrender.com"
+
 
 function App() {
   const dispatch = useDispatch()

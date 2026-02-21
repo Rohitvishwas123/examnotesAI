@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from "motion/react"
 import axios from 'axios';
-import { serverUrl } from '../App';
+import { serverUrl } from '../config';
 function Pricing() {
   const navigate = useNavigate()
   const [selectedPrice, setSelectedPrice] = useState(null);
